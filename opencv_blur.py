@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-my_image = cv2.imread("C:\Users\Dawen\Desktop\code\Tuskar.png")
+my_image = cv2.imread("C:\Users\Desktop\code\Tuskar.png")
 blurred = cv2.blur(my_image,(15,15),0)
 G_blurred = cv2.GaussianBlur(my_image, (15,15),0)
 cv2.imshow("blurred image", blurred)
