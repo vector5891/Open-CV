@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-my_image = cv2.imread('C:\Users\Dawen\Desktop\code\pudge.png')          ##read image
+my_image = cv2.imread('C:\Users\Desktop\code\pudge.png')          ##read image
 gray_image = cv2.cvtColor(my_image, cv2.COLOR_BGR2GRAY)                 ##convert my_image to gray image, store as "gray_image"
 
 ##create 2 seperate display windows to show the images
