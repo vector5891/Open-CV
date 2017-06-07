@@ -3,7 +3,7 @@ import cv2
 
 
 
-img_color = cv2.imread('C:\Users\MyComputer-DZ\Desktop\Code\Python\Pudge.png')
+img_color = cv2.imread('C:\Users\MyComputer\Desktop\Code\Python\Pudge.png')
 img_rgb = img_color
 
 ## blur and convert to gray image
